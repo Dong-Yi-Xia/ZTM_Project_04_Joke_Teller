@@ -2,8 +2,3 @@
 
 ## Resource
 
-gdfgdsfg
-fdgdsfg
-dfsgdsfg
-
-fdgdsfg

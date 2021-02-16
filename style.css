@@ -1,0 +1,13 @@
+@font-face { 
+    font-family: Balonku; 
+    src:url(fonts/BalonkuRegular-la1w.otf);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+}

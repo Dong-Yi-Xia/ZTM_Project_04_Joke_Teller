@@ -26,7 +26,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('./laugh.gif');
+    background: url('./image/laugh.gif');
     background-size: contain; /* image fully visiable on the screen */
     background-position: center center; /* Hor Ver */
     background-repeat: no-repeat;

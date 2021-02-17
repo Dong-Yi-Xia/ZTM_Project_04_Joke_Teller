@@ -14,12 +14,16 @@
 
     <!-- Script -->  
     <script defer src="script.js"></script>
+    <script defer src="voice.js"></script>
 </head>
 <body>
     <h1>Joke Teller</h1>
     <div class="container">
         <button id="button">Tell Me A Joke</button>
-        <audio id="audio" controls></audio>
+        <button id="button-repeat" class="button-repeat" disabled>Repeat The Joke</button>
+        <button id="button-subtitle" class="button-subtitle">Subtitle: Off</button>
+        <audio id="audio" controls hidden></audio>
+        <span id="jokeText" class="jokeText" hidden></span>
     </div>
 
 

@@ -20,6 +20,7 @@ function toggleButton(){
     buttonRepeat.disabled = !buttonRepeat.disabled 
 }
 
+// Turn On/Off Subtitles
 function toggleSubtitleButton(){
     if(textElement.hidden){
         textElement.hidden = false

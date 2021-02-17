@@ -1,7 +1,7 @@
-@font-face { 
-    font-family: Balonku; 
-    src:url(fonts/BalonkuRegular-la1w.otf);
-}
+@font-face { font-family: Youth; src:url(fonts/YouthTouchDemoRegular-4VwY.ttf) }
+@font-face { font-family: Lovely; src:url(fonts/LovelyHome-9aBZ.ttf) }
+@font-face { font-family: Bunch; src:url(fonts/BunchBlossomsPersonalUse-0nA4.ttf) }
+
 
 html {
     box-sizing: border-box;
@@ -9,5 +9,61 @@ html {
 
 body{
     margin: 0;
-    height: 100vh;
+    font-family: 'Bunch', sans-serif;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    /* border: solid 2px black; */
+    height: 80vh;
+    width: 80vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('./laugh.gif');
+    background-size: contain; /* image fully visiable on the screen */
+    background-position: center center; /* Hor Ver */
+    background-repeat: no-repeat;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    background-color: burlywood;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 4px;
+}
+
+button:hover {
+    filter: brightness(95%);
+}
+
+button:active {
+    transform: scale(0.98); /* increase/decrease button size */
+}
+
+button:disabled {
+    cursor: default;
+    filter: brightness(30%);
+}
+
+
+/* Media Query: Table or Smaller */
+@media screen and (max-width: 1000px){
+    .container {
+        background-position: 50% 10%;
+        background-repeat: space;
+    }
 }

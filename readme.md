@@ -2,16 +2,6 @@
 
 ## Resource
 
-gdfgdsfg
-fdgdsfg
-dfsgdsfg
+Gif <br>
+https://giphy.com/ <br>
 
-fdgdsfg
-dfsg
-dsfg
-dsfg
-
-
-
-fds
-ddg
